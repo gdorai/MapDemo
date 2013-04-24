@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB16610717282B1900D33CAC /* MapTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB16610617282B1900D33CAC /* MapTrackerViewController.m */; };
 		ABA994131727793F00C5B6C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA994121727793F00C5B6C4 /* UIKit.framework */; };
 		ABA994151727793F00C5B6C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA994141727793F00C5B6C4 /* Foundation.framework */; };
 		ABA994171727793F00C5B6C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA994161727793F00C5B6C4 /* CoreGraphics.framework */; };
@@ -16,9 +17,20 @@
 		ABA994251727794000C5B6C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA994241727794000C5B6C4 /* Default.png */; };
 		ABA994271727794000C5B6C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA994261727794000C5B6C4 /* Default@2x.png */; };
 		ABA994291727794000C5B6C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA994281727794000C5B6C4 /* Default-568h@2x.png */; };
+		ABA99430172779D500C5B6C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA9942F172779D500C5B6C4 /* MapKit.framework */; };
+		ABA9943317277BDB00C5B6C4 /* MapItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA9943217277BDB00C5B6C4 /* MapItemTableViewController.m */; };
+		ABA9943617277DA700C5B6C4 /* MapItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA9943517277DA700C5B6C4 /* MapItemDetailViewController.m */; };
+		ABA994381727814100C5B6C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA994371727814100C5B6C4 /* CoreLocation.framework */; };
+		ABA9943B17278E4200C5B6C4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA9943A17278E4200C5B6C4 /* MapViewController.m */; };
+		ABA9943E1727974900C5B6C4 /* MyAnno.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA9943D1727974900C5B6C4 /* MyAnno.m */; };
+		ABF891221728484B00BBA59C /* GeocodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF891211728484B00BBA59C /* GeocodingViewController.m */; };
+		ABF8912A17286A1200BBA59C /* MapDemo-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF8912917286A1200BBA59C /* MapDemo-icon@2x.png */; };
+		ABF8912C17286A6500BBA59C /* MapDemo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF8912B17286A6500BBA59C /* MapDemo-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB16610517282B1900D33CAC /* MapTrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTrackerViewController.h; sourceTree = "<group>"; };
+		AB16610617282B1900D33CAC /* MapTrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTrackerViewController.m; sourceTree = "<group>"; };
 		ABA9940F1727793F00C5B6C4 /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA994121727793F00C5B6C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABA994141727793F00C5B6C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +44,20 @@
 		ABA994241727794000C5B6C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ABA994261727794000C5B6C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ABA994281727794000C5B6C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABA9942F172779D500C5B6C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ABA9943117277BDB00C5B6C4 /* MapItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapItemTableViewController.h; sourceTree = "<group>"; };
+		ABA9943217277BDB00C5B6C4 /* MapItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapItemTableViewController.m; sourceTree = "<group>"; };
+		ABA9943417277DA700C5B6C4 /* MapItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapItemDetailViewController.h; sourceTree = "<group>"; };
+		ABA9943517277DA700C5B6C4 /* MapItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapItemDetailViewController.m; sourceTree = "<group>"; };
+		ABA994371727814100C5B6C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ABA9943917278E4200C5B6C4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		ABA9943A17278E4200C5B6C4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		ABA9943C1727974900C5B6C4 /* MyAnno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnno.h; sourceTree = "<group>"; };
+		ABA9943D1727974900C5B6C4 /* MyAnno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnno.m; sourceTree = "<group>"; };
+		ABF891201728484B00BBA59C /* GeocodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodingViewController.h; sourceTree = "<group>"; };
+		ABF891211728484B00BBA59C /* GeocodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodingViewController.m; sourceTree = "<group>"; };
+		ABF8912917286A1200BBA59C /* MapDemo-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapDemo-icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		ABF8912B17286A6500BBA59C /* MapDemo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapDemo-icon.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA99430172779D500C5B6C4 /* MapKit.framework in Frameworks */,
 				ABA994131727793F00C5B6C4 /* UIKit.framework in Frameworks */,
 				ABA994151727793F00C5B6C4 /* Foundation.framework in Frameworks */,
 				ABA994171727793F00C5B6C4 /* CoreGraphics.framework in Frameworks */,
+				ABA994381727814100C5B6C4 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,8 @@
 		ABA994111727793F00C5B6C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABA994371727814100C5B6C4 /* CoreLocation.framework */,
+				ABA9942F172779D500C5B6C4 /* MapKit.framework */,
 				ABA994121727793F00C5B6C4 /* UIKit.framework */,
 				ABA994141727793F00C5B6C4 /* Foundation.framework */,
 				ABA994161727793F00C5B6C4 /* CoreGraphics.framework */,
@@ -80,6 +110,18 @@
 			children = (
 				ABA994211727794000C5B6C4 /* AppDelegate.h */,
 				ABA994221727794000C5B6C4 /* AppDelegate.m */,
+				ABA9943117277BDB00C5B6C4 /* MapItemTableViewController.h */,
+				ABA9943217277BDB00C5B6C4 /* MapItemTableViewController.m */,
+				ABA9943417277DA700C5B6C4 /* MapItemDetailViewController.h */,
+				ABA9943517277DA700C5B6C4 /* MapItemDetailViewController.m */,
+				ABA9943917278E4200C5B6C4 /* MapViewController.h */,
+				ABA9943A17278E4200C5B6C4 /* MapViewController.m */,
+				AB16610517282B1900D33CAC /* MapTrackerViewController.h */,
+				AB16610617282B1900D33CAC /* MapTrackerViewController.m */,
+				ABF891201728484B00BBA59C /* GeocodingViewController.h */,
+				ABF891211728484B00BBA59C /* GeocodingViewController.m */,
+				ABA9943C1727974900C5B6C4 /* MyAnno.h */,
+				ABA9943D1727974900C5B6C4 /* MyAnno.m */,
 				ABA994191727794000C5B6C4 /* Supporting Files */,
 			);
 			path = MapDemo;
@@ -88,6 +130,8 @@
 		ABA994191727794000C5B6C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABF8912B17286A6500BBA59C /* MapDemo-icon.png */,
+				ABF8912917286A1200BBA59C /* MapDemo-icon@2x.png */,
 				ABA9941A1727794000C5B6C4 /* MapDemo-Info.plist */,
 				ABA9941B1727794000C5B6C4 /* InfoPlist.strings */,
 				ABA9941E1727794000C5B6C4 /* main.m */,
@@ -154,6 +198,8 @@
 				ABA994251727794000C5B6C4 /* Default.png in Resources */,
 				ABA994271727794000C5B6C4 /* Default@2x.png in Resources */,
 				ABA994291727794000C5B6C4 /* Default-568h@2x.png in Resources */,
+				ABF8912A17286A1200BBA59C /* MapDemo-icon@2x.png in Resources */,
+				ABF8912C17286A6500BBA59C /* MapDemo-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +212,12 @@
 			files = (
 				ABA9941F1727794000C5B6C4 /* main.m in Sources */,
 				ABA994231727794000C5B6C4 /* AppDelegate.m in Sources */,
+				ABA9943317277BDB00C5B6C4 /* MapItemTableViewController.m in Sources */,
+				ABA9943617277DA700C5B6C4 /* MapItemDetailViewController.m in Sources */,
+				ABA9943B17278E4200C5B6C4 /* MapViewController.m in Sources */,
+				ABA9943E1727974900C5B6C4 /* MyAnno.m in Sources */,
+				AB16610717282B1900D33CAC /* MapTrackerViewController.m in Sources */,
+				ABF891221728484B00BBA59C /* GeocodingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +297,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapDemo/MapDemo-Prefix.pch";
 				INFOPLIST_FILE = "MapDemo/MapDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -256,7 +310,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapDemo/MapDemo-Prefix.pch";
 				INFOPLIST_FILE = "MapDemo/MapDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,6 +336,7 @@
 				ABA9942E1727794000C5B6C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
